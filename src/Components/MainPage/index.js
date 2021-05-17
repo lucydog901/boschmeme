@@ -184,6 +184,7 @@ class MainPage extends React.Component {
             <p>
             Choose your image and enter up to two lines of text, then click and drag to place your text anywhere on the canvas.
             </p>
+            <p><i>Mobile Users:</i> The ability to drag and drop text is not available on touch devices. The first line of text will appear at the the top of the meme, and the second line will appear at the bottom.</p>
           </div>
           <div className="content">
             {photos.map((image, index) => (
@@ -202,7 +203,7 @@ class MainPage extends React.Component {
               </div>
             ))}
             <div className="container"> <br></br>
-            <h5><span>&#169;</span> Thomasin Durgin 2021. Made with ReactMemeMaker.</h5>
+            <h5><span>&#169;</span> Thomasin Durgin 2021.</h5>
             </div>
           </div>
         </div>
