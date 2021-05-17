@@ -2,27 +2,24 @@ import React from 'react';
 import { Modal, ModalHeader, ModalBody, FormGroup, Label, NavbarBrand } from 'reactstrap';
 
 const photos = [
-  { src: '/images/vict-baby.png' },
-  { src: '/images/ned.jpeg' },
-  { src: '/images/devilgirl.jpg' },
-  { src: '/images/trump.jpg' },
-  { src: '/images/one-does-not.jpg' },
-  { src: '/images/dank.png' },
-  { src: '/images/boy.png' },
-  { src: '/images/sad.png' },
-  { src: '/images/wolf.png' },
-  { src: '/images/fry.jpg' },
-  { src: '/images/jobs.jpg' },
-  { src: '/images/phone.jpg' },
-  { src: '/images/oldie.png' },
-  { src: '/images/image.png' },
-  { src: '/images/doubt.png' },
-  { src: '/images/crying.png' },
-  { src: '/images/sponge.png' },
-  { src: '/images/dog.png' },
-  { src: '/images/frust.png' },
-  { src: '/images/web.png' },
-  { src: '/images/penguin.png' }
+  { src: '/images/layer1.png' },
+  { src: '/images/layer2.png' },
+  { src: '/images/layer3.png' },
+  { src: '/images/layer7.png' },
+  { src: '/images/layer8.png' },
+  { src: '/images/layer9.png' },
+  { src: '/images/layer10.png' },
+  { src: '/images/layer11.png' },
+  { src: '/images/layer12.png' },
+  { src: '/images/layer14.png' },
+  { src: '/images/layer15.png' },
+  { src: '/images/layer17.png' },
+  { src: '/images/layer20.png' },
+  { src: '/images/layer21.png' },
+  { src: '/images/layer22.png' },
+  { src: '/images/layer23.png' },
+  { src: '/images/layer24.png' },
+  { src: '/images/layer26.png' }
 ];
 
 const initialState = {
@@ -175,8 +172,11 @@ class MainPage extends React.Component {
     return (
       <div>
         <div className="main-content">
+        
           <div className="sidebar">
-            <NavbarBrand href="/">Make-a-Meme</NavbarBrand>
+          
+            <NavbarBrand href="/"><img src="/images/logo.png" alt="logo"></img></NavbarBrand>
+            
             <p>
               This is a fun 5 hour project inspired by imgur. Built with React.
             </p>
@@ -187,7 +187,6 @@ class MainPage extends React.Component {
           <div className="content">
             {photos.map((image, index) => (
               <div className="image-holder" key={image.src}>
-                <span className="meme-top-caption">Top text</span>
                 <img
                   style={{
                     width: "100%",
@@ -199,13 +198,12 @@ class MainPage extends React.Component {
                   onClick={() => this.openImage(index)}
                   role="presentation"
                 />
-              <span className="meme-bottom-caption">Bottom text</span>
               </div>
             ))}
           </div>
         </div>
         <Modal className="meme-gen-modal" isOpen={this.state.modalIsOpen}>
-          <ModalHeader toggle={this.toggle}>Make-a-Meme</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Bosch Meme</ModalHeader>
           <ModalBody>
             <svg
               width={newWidth}
