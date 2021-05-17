@@ -13,7 +13,7 @@ html, body {
 }
 
 .btn-primary {
-  background: #666 !important;
+  background: #07876a !important;
   border: none !important;
   outline: none !important;
   width: 100%;
@@ -24,7 +24,7 @@ html, body {
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #666 !important;
+  background: rgb(21, 177, 125) !important;
   outline: none !important;
   border: none !important;
 }
@@ -58,10 +58,10 @@ html, body {
 }
 
 .meme-form {
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 300px;
-  border-left: 1px solid #e9ecef;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 400px;
+  
 }
 
 .form-control:focus {

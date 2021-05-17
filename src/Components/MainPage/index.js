@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, ModalHeader, ModalBody, FormGroup, Label, NavbarBrand } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Label, NavbarBrand } from 'reactstrap';
 
 const photos = [
   { src: '/images/layer1.png' },
@@ -158,7 +158,7 @@ class MainPage extends React.Component {
     const base_image = new Image();
     base_image.src = image.src;
     var wrh = base_image.width / base_image.height;
-    var newWidth = 600;
+    var newWidth = 400;
     var newHeight = newWidth / wrh;
     const textStyle = {
       fontFamily: "Impact",
@@ -205,6 +205,7 @@ class MainPage extends React.Component {
         <Modal className="meme-gen-modal" isOpen={this.state.modalIsOpen}>
           <ModalHeader toggle={this.toggle}>Bosch Meme</ModalHeader>
           <ModalBody>
+      
             <svg
               width={newWidth}
               id="svg_ref"
@@ -241,18 +242,20 @@ class MainPage extends React.Component {
                   {this.state.bottomtext}
               </text>
             </svg>
+            </ModalBody>
+            <ModalFooter>
             <div className="meme-form">
               <FormGroup>
                 <Label for="toptext">First Line of Text</Label>
-                <input className="form-control" type="text" name="toptext" id="toptext" placeholder="Add text to the top" onChange={this.changeText} />
+                <input className="form-control" type="text" name="toptext" id="toptext" placeholder="add text" onChange={this.changeText} />
               </FormGroup>
               <FormGroup>
                 <Label for="bottomtext">Second Line of Text</Label>
-                <input className="form-control" type="text" name="bottomtext" id="bottomtext" placeholder="Add text to the bottom" onChange={this.changeText} />
+                <input className="form-control" type="text" name="bottomtext" id="bottomtext" placeholder="add text" onChange={this.changeText} />
               </FormGroup>
               <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download</button>
             </div>
-          </ModalBody>
+         </ModalFooter>
         </Modal>
       </div>
     )
