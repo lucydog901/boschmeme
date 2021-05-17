@@ -243,14 +243,14 @@ class MainPage extends React.Component {
             </svg>
             <div className="meme-form">
               <FormGroup>
-                <Label for="toptext">Top Text</Label>
+                <Label for="toptext">First Line of Text</Label>
                 <input className="form-control" type="text" name="toptext" id="toptext" placeholder="Add text to the top" onChange={this.changeText} />
               </FormGroup>
               <FormGroup>
-                <Label for="bottomtext">Bottom Text</Label>
+                <Label for="bottomtext">Second Line of Text</Label>
                 <input className="form-control" type="text" name="bottomtext" id="bottomtext" placeholder="Add text to the bottom" onChange={this.changeText} />
               </FormGroup>
-              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download Meme!</button>
+              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download</button>
             </div>
           </ModalBody>
         </Modal>

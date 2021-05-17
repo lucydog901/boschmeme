@@ -90,7 +90,7 @@ html, body {
 }
 
 .sidebar {
-  min-width: 400px;
+  min-width: 200px;
   background: #333333;
   min-height: 100vh;
   margin-right: 7.5px;
@@ -113,7 +113,7 @@ html, body {
   flex-wrap: wrap;
   margin-top: 10px;
   position: relative;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .meme-bottom-caption {
