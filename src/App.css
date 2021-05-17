@@ -12,6 +12,12 @@ html, body {
   color: #666;
 }
 
+h5 {
+  vertical-align: bottom;
+  font-size: 12px;
+  color: #6d6a6a;
+  font-weight: 200;
+}
 .btn-primary {
   background: #07876a !important;
   border: none !important;

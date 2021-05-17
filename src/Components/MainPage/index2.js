@@ -200,9 +200,6 @@ class MainPage extends React.Component {
                 />
               </div>
             ))}
-            <div className="container"> <br></br>
-            <h5><span>&#169;</span> Thomasin Durgin 2021. Made with ReactMemeMaker.</h5>
-            </div>
           </div>
         </div>
         <Modal className="meme-gen-modal" isOpen={this.state.modalIsOpen}>
