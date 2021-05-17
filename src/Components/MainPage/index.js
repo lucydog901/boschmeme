@@ -4,22 +4,23 @@ import { Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Label, NavbarBra
 const photos = [
   { src: '/images/layer1.png' },
   { src: '/images/layer2.png' },
-  { src: '/images/layer3.png' },
+  { src: '/images/layer14.png' },
   { src: '/images/layer7.png' },
   { src: '/images/layer8.png' },
   { src: '/images/layer9.png' },
   { src: '/images/layer10.png' },
-  { src: '/images/layer11.png' },
+  { src: '/images/layer26.png' },
   { src: '/images/layer12.png' },
-  { src: '/images/layer14.png' },
+  { src: '/images/layer16.png' },
   { src: '/images/layer15.png' },
+  { src: '/images/layer22.png' },
   { src: '/images/layer17.png' },
   { src: '/images/layer20.png' },
   { src: '/images/layer21.png' },
-  { src: '/images/layer22.png' },
-  { src: '/images/layer23.png' },
   { src: '/images/layer24.png' },
-  { src: '/images/layer26.png' }
+  { src: '/images/layer23.png' },
+  { src: '/images/layer3.png' },
+  { src: '/images/layer11.png' }
 ];
 
 const initialState = {
