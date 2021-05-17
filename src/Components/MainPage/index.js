@@ -178,10 +178,10 @@ class MainPage extends React.Component {
             <NavbarBrand href="/"><img src="/images/logo.png" alt="logo"></img></NavbarBrand>
             
             <p>
-              This is a fun 5 hour project inspired by imgur. Built with React.
+            Create and download your own Hieronymus Bosch memes with characters from his painting <i>The Garden of Earthly Delights</i>. 
             </p>
             <p>
-              You can add top and bottom text to a meme-template, move the text around and can save the image by downloading it.
+            Choose your image and enter up to two lines of text, then click and drag to place your text anywhere on the canvas.
             </p>
           </div>
           <div className="content">
