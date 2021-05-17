@@ -179,10 +179,10 @@ class MainPage extends React.Component {
             <NavbarBrand href="/"><img src="/images/logo.png" alt="logo"></img></NavbarBrand>
             
             <p>
-            Create and download your own Hieronymus Bosch memes with characters from his painting <i>The Garden of Earthly Delights</i>. 
+            Create and download your own dank Hieronymus Bosch memes (Hieromemus Dankemus). 
             </p>
             <p>
-            Choose your image and enter up to two lines of text, then click and drag to place your text anywhere on the canvas.
+            Choose a character from Bosch's painting  <a href="https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights?fbclid=IwAR3GpoUPMcZ3UJn76Zh2fUbN_5n_a3uUMenxgi6cbd00BiZlxy1CWks_-Vk#/media/File:The_Garden_of_earthly_delights.jpg" target="_blank" rel="noopener noreferrer"><i>The Garden of Earthly Delights</i></a> and enter up to two lines of text, then click and drag to place your text anywhere on the canvas.
             </p>
             <p><i>Mobile Users:</i> The ability to drag and drop text is not available on touch devices. The first line of text will appear at the the top of the meme, and the second line will appear at the bottom.</p>
           </div>
