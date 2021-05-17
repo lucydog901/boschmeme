@@ -20,6 +20,7 @@ const photos = [
   { src: '/images/layer24.png' },
   { src: '/images/layer23.png' },
   { src: '/images/layer3.png' },
+  { src: '/images/layer19.png' },
   { src: '/images/layer11.png' }
 ];
 
